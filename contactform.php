@@ -15,3 +15,4 @@ $txt = "you have recived an email from".$name."Arrival is".$Anreise."Departure i
 mail(mailTo, $subject, $txt, $headers);
 header ("Locaction: index.php?mailsend");
 }
+?>
