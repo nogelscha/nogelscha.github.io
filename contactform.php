@@ -13,5 +13,5 @@ $headers = " From: ". $mailfrom;
 $txt = "you have recived an email from".$name."Arrival is".$Anreise."Departure is".$Abreise.".\n\n".$message;
 
 mail(mailTo, $subject, $txt, $headers);
-header ("Locaction: index.php?mailsend)";
+header ("Locaction: index.php?mailsend");
 }
