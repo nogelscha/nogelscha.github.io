@@ -8,7 +8,7 @@ $message =$_POST[’message’]
 $Abreise =$_POST[’Abreise’]
 $Anreise =$_PSOT[’Anreise’]
 
-$mailTo = "bio1@utanet.at;
+$mailTo = jrettenwender@gmail.com;
 $headers = " From: ". $mailfrom;
 $txt = "you have recived an email from".$name."Arrival is".$Anreise."Departure is".$Abreise.".\n\n".$message;
 
