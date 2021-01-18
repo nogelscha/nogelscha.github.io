@@ -1,6 +1,6 @@
 <?php
 
-if (isset($_POST[’sumit’])){
+if (isset($_POST[’sumbit’])){
 $name =$_POST[’name’]
 $subject =$_POST[’subject’]
 $mailfrom =$_POST[’mail’]
