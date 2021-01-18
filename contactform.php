@@ -5,10 +5,9 @@ $name =$_POST[’name’]
 $subject =$_POST[’subject’]
 $mailfrom =$_POST[’mail’]
 $message =$_POST[’message’]
-$Abreise =$_POST[’Abreise’]
-$Anreise =$_PSOT[’Anreise’]
 
-$mailTo = jrettenwender@gmail.com;
+
+$mailTo = "jrettenwender@gmail.com";
 $headers = " From: ". $mailfrom;
 $txt = "you have recived an email from".$name."Arrival is".$Anreise."Departure is".$Abreise.".\n\n".$message;
 
